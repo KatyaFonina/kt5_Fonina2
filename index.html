@@ -1,0 +1,118 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>car</title>
+<style>
+
+
+ 
+.big1{
+top: 190px;
+left: 100px;
+position: absolute;
+width: 50px;
+height: 50px;
+background: #828282;
+-moz-border-radius: 60px;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+}
+.big2{
+position: absolute;
+top: 190px;
+width: 50px;
+height: 50px;
+background: #828282;
+-moz-border-radius: 60px;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+}
+.small1{
+top: 200px;
+left: 110px;
+position: absolute;
+width: 30px;
+height: 30px;
+background: #010101;
+-moz-border-radius: 60px;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+}
+.small2{
+top: 200px;
+left: 10px;
+position: absolute;
+width: 30px;
+height: 30px;
+background: #080808;
+-moz-border-radius: 60px;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+}
+ 
+.kusov{
+position: absolute;
+top: 10em;
+width: 80px;
+height: 50px;
+background-color: red;
+}
+.door{
+position: absolute;
+left: 80px;
+top: 7.5em;
+width: 50px;
+height: 90px;
+background-color: red;
+}
+.start{
+position: absolute;
+top: 10.7em;
+left: 130px;
+width: 40px;
+height: 40px;
+background-color: red;
+align-items:end;
+}
+ 
+.car{
+position: absolute;
+width: 200px;
+height: 200px;
+}
+ 
+@keyframes move {
+from {
+transform: translateX(0);
+}
+to {
+transform: translateX(75em);
+}
+}
+ 
+.caranimation {
+animation: move 7s infinite;
+animation-timing-function: linear;
+}
+ 
+ 
+</style>
+</head>
+<body>
+ 
+<div class="caranimation"> 
+<div class="car">
+<div class="kusov" ></div>
+<div class="door" ></div>
+<div class="start" ></div>
+<div class="big1" ></div>
+<div class="big2" ></div>
+<div class="small1" ></div>
+<div class="small2"></div>
+</div>
+</div>
+ 
+</body>
+</html>
